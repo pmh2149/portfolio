@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+.clearfix::after{content:'';display:block;clear:both;}
+:root{font-family:'Nanum Gothic', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-weight:400;font-size:15px;font-style:normal;color:#000;}
+.wrapper{width:100%;height:100%;overflow:hidden;}
+.container{margin:0 auto;padding:100px 20px;}
+.sec-tit,.sub-tit{margin-bottom:36px;font-weight:700;color:#000;text-align:center;}
+.sec-tit{font-size:40px;}
+.sub-tit{margin-bottom:26px;font-size:30px;color:#000;}
+.section.about .contents, .section.skill .contents{display:flex;flex-flow:row wrap;justify-content:space-between;}
+.contents>*{width:100%;}

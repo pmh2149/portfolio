@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+.section.about{height:100vh;margin-top:0;background-color:#ED3746;}            
+            
+.section.about .img-box{margin:50px 30px;text-align:center;}
+.section.about .img-box img{width:158px;}
+.section.about .con-txt{margin:40px 15px;}
+.section.about .sec-tit, .sub-tit{color:#fff;}
+.section.about p{text-align: center;color:#fff;}
+
+@media(min-width:768px){
+    .section.about h2{order:1;}
+    .section.about .con-txt{width:57.28021978021978%;order:2;}
+    .section.about .img-box{width:40.10989010989011%;order:3;}
+}
+@media(min-width:1220px){
+    .section.about .con-txt{width:57.6271186440678%;}
+    .section.about .img-box{width:30.677966%;}
+    .section.about .img-box img{width:268px;}
+}

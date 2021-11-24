@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ParkMinHee">
+    <meta name="description" content="박민희의 반응형 웹 포트폴리오 입니다.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/icon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/icon/apple-icon-114x114.png">
+    <link rel="android-touch-icon" sizes="36x36" href="./images/icon/android-icon-36x36.png">
+    <link rel="android-touch-icon" sizes="48x48" href="./images/icon/android-icon-48x48.png">
+    <link rel="android-touch-icon" sizes="72x72" href="./images/icon/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/icon/favicon-96x96.png">
+    <link rel="manifest" href="./images/icon/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.2.0/swiper-bundle.min.css"
+        integrity="sha512-BYn1UZcpzkgi4cForzUzU/FqsewIcfXDYAU0tThFfehimrUrp5hOtcWPI1Wpli8rKopUIhaDCbxXPttBDTISgA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Minhee's Portfolio</title>
+
+    <link rel="stylesheet" href="./css/defualt.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <style>
+        #ps_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #ai_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #pr_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #ae_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #html_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #css_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+
+        #js_pro {
+            margin: 20px;
+            width: 400px;
+            height: 15px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 스킵메뉴 생략 -->
+    <section class="wrapper">
+        <header class="header">
+            <div class="container header-container">
+                <div class="contents">
+                    <nav class="nav" id="nav">
+                        <ul data-aos="fade-left" data-aos-delay="1600" data-aos-duration="5000">
+                            <li><a href="#home" class="smooth">HOME</a></li>
+                            <li><a href="#about" class="smooth">ABOUT</a></li>
+                            <li><a href="#skill" class="smooth">SKILLS</a></li>
+                            <li><a href="#portfolio" class="smooth">PORTFOLIO</a></li>
+                            <li><a href="#contact" class="smooth">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <div class="btn-nav" id="btn-nav">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section home" id="home">
+            <img src="./images/intro-back.jpg" alt="나무사진">
+            <div class="container home-container">
+                <div class="contents">
+                    <div class="home-txt">
+                        <h2 data-aos="fade-up" data-aos-duration="3000">WELCOME</h2>
+                        <h3 id="home-h3">
+                            <!-- Minhee's Portfolio -->
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section about" id="about">
+            <div class="container about-container">
+                <div class="contents">
+                    <h2 class="sec-tit" data-aos="fade-up" data-aos-duration="1000">ABOUT</h2>
+                    <div class="img-box">
+                        <picture>
+                            <source media="(min-width:1220px)" srcset="./images/my02.png">
+                            <img src="./images/my01.png" alt="나의 얼굴">
+                        </picture>
+                    </div>
+                    <div class="con-txt">
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">나를
+                            소개합니다.</h3>
+                        <p>
+                            자기소개
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section skill" id="skill">
+            <div class="container skill-container">
+                <div class="contents">
+                    <h2 class="sec-tit" data-aos="fade-up">SKILLS</h2>
+                    <article class="ps">
+                        <div class="img-box">
+                            <img src="./images/ps.png" alt="포토샵이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            PhotoShop
+                        </h3>
+                        <div id="ps_pro"></div>
+                    </article>
+                    <article class="ai">
+                        <div class="img-box">
+                            <img src="./images/ai.png" alt="일러스트레이터이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            Illustrator
+                        </h3>
+                        <div id="ai_pro"></div>
+                    </article>
+                    <article class="pr">
+                        <div class="img-box">
+                            <img src="./images/pr.png" alt="프리미어프로이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            Premiere Pro
+                        </h3>
+                        <div id="pr_pro"></div>
+                    </article>
+                    <article class="ae">
+                        <div class="img-box">
+                            <img src="./images/ae.png" alt="에프터이펙트이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            After Effects
+                        </h3>
+                        <div id="ae_pro"></div>
+                    </article>
+                    <article class="html">
+                        <div class="img-box">
+                            <img src="./images/html.png" alt="html이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            HTML5
+                        </h3>
+                        <div id="html_pro"></div>
+                    </article>
+                    <article class="css">
+                        <div class="img-box">
+                            <img src="./images/css.png" alt="css이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            CSS3
+                        </h3>
+                        <div id="css_pro"></div>
+                    </article>
+                    <article class="js">
+                        <div class="img-box">
+                            <img class="lazy" src="./images/js.png" alt="자바스크립트이미지">
+                        </div>
+                        <h3 class="sub-tit" data-aos="fade-right" data-aos-duration="1500">
+                            javaScript
+                        </h3>
+                        <div id="js_pro"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section portfolio" id="portfolio">
+            <div class="container portfolio-container">
+                <div class="contents">
+                    <h2 class="sec-tit" data-aos="fade-up">PORTFOLIO</h2>
+                    <article class="megabox">
+                        <div class="img-box"><img src="./images/megabox/megabox.jpg" alt="메가박스"></div>
+                        <div class="txt-box">
+                            <p class="pj-num">1</p>
+                            <h3 class="pj-tit">MEGABOX</h3>
+                            <p class="pj-skill">PhotoShop, Illustrator, HTML5, CSS3, javaScript</p>
+                            <p class="btn-work" id="btn-megabox">
+                                <a href="#work" rel="modal:open">작업과정바로가기</a>
+                            </p>
+                            <p class="btn-site"><a href="https://pam7464.github.io/megabox/" target="_blank">사이트바로가기</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="hollys">
+                        <div class="img-box"><img src="./images/hollys/hollys.jpg" alt="할리스"></div>
+                        <div class="txt-box">
+                            <p class="pj-num">2</p>
+                            <h3 class="pj-tit">HOLLYS</h3>
+                            <p class="pj-skill">HTML5, CSS3, javaScript, Bootstrap, AJAX</p>
+                            <p class="btn-work" id="btn-hollys">
+                                <a href="#work" rel="modal:open">작업과정바로가기</a>
+                            </p>
+                            <p class="btn-site"><a href="https://pam7464.github.io/hollys/" target="_blank">사이트바로가기</a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section work modal" id="work">
+            <div class="container work-container">
+                <div class="contents">
+                    <h2 class="sec-tit">Work Flow</h2>
+                    <div class="work-content">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="contact">
+            <div class="container footer-container">
+                <div class="footer-tit">
+                    CONTACT ME!
+                </div>
+                <address>
+                    <p class="phone">010-4140-0786</p>
+                    <p class="footer-e-mail">pmh2149@naver.com</p>
+                    <p class="git"><a href="https://www.github.com/pmh2149" target="_blank">GitHub</a></p>
+                </address>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.2.0/swiper-bundle.min.js"
+        integrity="sha512-XHnWZWvy5TkCnPgLU7XsWhGAks1JQ3uFutVxRSH0Z4+djsGkCkxVsYu+JgfrDicvbCmjfUf1HeMWYUvUYKgjzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+        src="https://cdn.statically.io/gh/kswedberg/jquery-smooth-scroll/3948290d/jquery.smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.18.2/core.min.js"
+        integrity="sha512-g8TodWNzrsxJkADtGuwwvVND2MVKUuisGWZsj2/NtLA/XFDq9biQpeDMcJ8iu71OpabLfDxfEAdTQFdXjmV60A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"
+        integrity="sha512-EZhmSl/hiKyEHklogkakFnSYa5mWsLmTC4ZfvVzhqYNLPbXKAXsjUYRf2O9OlzQN33H0xBVfGSEIUeqt9astHQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // 바닐라스크립트
+        // let btnNav = document.getElementById('btn-nav');
+        // let nav = document.getElementById('nav');
+
+        // btnNav.addEventListener('click',function(){
+        //     nav.classList.toggle('active');
+        // })
+
+        // 제이쿼리
+        $('#btn-nav').click(function () {
+            $('#nav').slideToggle(300);
+        });
+
+        let homeHeight = $('.home').height();
+        $('.home-txt').css('height', homeHeight);
+
+        $(window).resize(function () {
+            homeHeight = $('.home').height();
+            $('.home-txt').css('height', homeHeight);
+        })
+
+        $('#btn-megabox').on({
+            'click': function () {
+                $('.work-content').load('./modal.txt .work-megabox');
+            }
+        })
+        $('#btn-hollys').on({
+            'click': function () {
+                $('.work-content').load('./modal.txt .work-hollys');
+            }
+        })
+
+        // smooth scroll
+        $('a.smooth').smoothScroll();
+
+        // AOS
+        AOS.init();
+
+        //  home-h3 typewriter
+        setTimeout(() => {
+            var app = document.getElementById('home-h3');
+
+            var typewriter = new Typewriter(app, {
+                loop: false
+            });
+
+            typewriter.typeString('Minhee`s Portfolio')
+                .pauseFor(2500)
+                .start();
+        }, 1500);
+
+        // progressbar.js@1.0.0 version is used
+        // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+
+        var bar = new ProgressBar.Line(ps_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(ai_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(pr_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(ae_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(html_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(css_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+
+        var bar = new ProgressBar.Line(js_pro, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#FFEA82',
+            trailColor: '#eee',
+            trailWidth: 1,
+            svgStyle: { width: '100%', height: '100%' },
+            text: {
+                style: {
+                    // Text color.
+                    // Default: same as stroke color (options.color)
+                    color: '#999',
+                    position: 'absolute',
+                    right: '0',
+                    top: '30px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+            },
+            from: { color: '#FFEA82' },
+            to: { color: '#ED6A5A' },
+            step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+            }
+        });
+        bar.animate(1.0);  // Number from 0.0 to 1.0
+    </script>
+</body>
+
+</html>
